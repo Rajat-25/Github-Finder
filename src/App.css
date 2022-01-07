@@ -2,7 +2,7 @@
 
 /* Global Styles */
 :root {
-  --primary-color: #dc3545;
+  --primary-color: #0cc084c5;
   --dark-color: #333333;
   --light-color: #f4f4f4;
   --danger-color: #dc3545;
@@ -207,6 +207,7 @@ img {
   margin-right: 0.5rem;
   transition: opacity 0.2s ease-in;
   outline: none;
+  border-radius: 25px;
 }
 
 .btn-link {
@@ -353,9 +354,13 @@ table th {
   align-items: center;
   padding: 0.7rem 2rem;
   z-index: 1;
-  width: 100%;
+  width: 99%;
   opacity: 0.9;
-  margin-bottom: 1rem;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  border-radius: 24px;
 }
 
 .navbar ul {
